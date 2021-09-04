@@ -1,0 +1,12 @@
+
+config DRV_SPI_TEMPLATES
+    tristate "spi templates xxxxxxxxxxxxxx"
+    default n
+    help
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+if CONFIG_DRV_SPI_TEMPLATES
+config SPI_TODSP_USE_DEBUG
+    tristate "spi templates debug enalbe"
+    default n
+    select SPI_TODSP_USE_DEBUG
+endif
